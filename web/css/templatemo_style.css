@@ -5,6 +5,9 @@ Flex Template
 http://www.templatemo.com/preview/templatemo_406_flex 
 */
 
+@import url('http://fonts.googleapis.com/css?family=Exo+2:400,800,700,900');
+@import url('http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic');
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -156,7 +159,7 @@ body {
 }
 
 a {
-  color: #ec523f;
+  color: #FC0003;
   text-decoration: none;
   -webkit-transition: all 200ms ease-in-out;
   -moz-transition: all 200ms ease-in-out;
@@ -249,7 +252,7 @@ hr {
   width: 100%;
   margin: 0 auto;
   z-index: 99;
-  top: 94px;
+  top: 0px;
   -webkit-transition: all 150ms ease-in-out;
   -moz-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out;
@@ -265,7 +268,7 @@ hr {
 }
 
 #menu-wrapper {
-  background-color: white;
+  background-color: rgba(255,255,255,0.7);
   overflow: hidden;
   -moz-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.07);
   -webkit-box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.07);
@@ -273,20 +276,38 @@ hr {
 }
 
 .logo-wrapper {
-  background: url(../images/logo.png) no-repeat;
+  /*background: url(../images/logo.png) no-repeat;*/
   height: 100px;
   background-position: 15px;
+  background-position: 20px 0;
 }
-.logo-wrapper a {
+.logo-wrapper .logo-img{
+    display: inline-block;
+    width: 110px;
+    margin: 12px 0 0 15px;
+    float: left;
+}
+.logo-wrapper .logo-header{
   display: inline-block;
   overflow: hidden;
-  padding-left: 130px;
-  line-height: 100px;
-  text-transform: uppercase;
-  color: #ec523f;
-  font-size: 32px;
+  /*line-height: 20px;*/
+  /*text-transform: uppercase;*/
+  color: #FC0003;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 42px;
   font-weight: 700;
+  padding: 15px 0 0 10px;
 }
+
+.logo-wrapper .logo-title{
+    padding:0;
+    display: block;
+    color: #FC0003;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+}
+
 
 .main-menu ul li {
   display: inline-block;
@@ -303,8 +324,8 @@ hr {
   padding-top: 37px;
 }
 .main-menu ul li.active a {
-  border-top: 3px solid #ec523f;
-  color: #ec523f;
+  border-top: 3px solid #FC0003;
+  color: #FC0003;
 }
 
 a.toggle-menu {
@@ -335,7 +356,7 @@ a.toggle-menu {
   font-size: 14px;
 }
 .menu-responsive ul li.active a {
-  color: #ec523f;
+  color: #FC0003;
 }
 
 .flexslider {
@@ -378,7 +399,7 @@ a.toggle-menu {
 }
 .flexslider .slider-caption a.slider-btn {
   color: white;
-  background-color: #ec523f;
+  background-color: #FC0003;
   padding: 12px 20px;
   border-radius: 4px;
   text-transform: uppercase;
@@ -513,7 +534,7 @@ a.toggle-menu {
   width: 100%;
 }
 .portfolio-item .portfolio-thumb .portfolio-overlay {
-  background-color: #ec523f;
+  background-color: #FC0003;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -579,7 +600,7 @@ a.toggle-menu {
   text-align: center;
   top: 0;
   left: 0;
-  background-color: #ec523f;
+  background-color: #FC0003;
   color: white;
   opacity: 0;
   visibility: hidden;
@@ -614,7 +635,7 @@ a.toggle-menu {
   height: 36px;
   background-color: white;
   line-height: 40px;
-  color: #ec523f;
+  color: #FC0003;
   border-radius: 18px;
   -webkit-border-radius: 18px;
   -moz-border-radius: 18px;
@@ -652,7 +673,7 @@ a.toggle-menu {
   padding-left: 15px;
   text-transform: uppercase;
   font-weight: 700;
-  background-color: #ec523f;
+  background-color: #FC0003;
   box-shadow: none;
 }
 
@@ -682,13 +703,13 @@ a.toggle-menu {
 .contact-form .mainBtn {
   margin-top: 15px;
   color: white;
-  background-color: #ec523f;
+  background-color: #FC0003;
   text-transform: uppercase;
   border: 0;
 }
 
 #go-top {
-  background-color: #ec523f;
+  background-color: #FC0003;
   color: white;
   padding: 15px 40px;
   text-transform: uppercase;
